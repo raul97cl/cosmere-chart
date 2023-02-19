@@ -2,11 +2,11 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
-replicaCount: 1
+replicaCount: 2
 
 image:
   repository: mazigros/cosmereapi
-  pullPolicy: IfNotPresent
+  pullPolicy: Always
   tag: "latest"
 
 nameOverride: "cosmere-api"
